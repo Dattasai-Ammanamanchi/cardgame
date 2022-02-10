@@ -31,11 +31,15 @@ export default defineComponent({
   position: relative;
   margin-top: 10px;
   width: 100%;
-  height: 20px;
+  height: 40px;
   line-height: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
+  color: white;
   font-weight: bold;
+  font-family: 'Syne Tactile', cursive;
+
+  @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 }
 a {
   text-decoration: none;

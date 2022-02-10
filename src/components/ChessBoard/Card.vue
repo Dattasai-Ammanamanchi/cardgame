@@ -1,16 +1,16 @@
 <template>
   <div class="container" @click="doFlip">
     <div class="card" :class="{ flipped: card.flipped }">
-      <img v-if="card.name === '8-ball'" class="front" src="../../assets/8-ball.png" />
-      <img v-if="card.name === 'baked-potato'" class="front" src="../../assets/baked-potato.png" />
-      <img v-if="card.name === 'dinosaur'" class="front" src="../../assets/dinosaur.png" />
-      <img v-if="card.name === 'kronos'" class="front" src="../../assets/kronos.png" />
-      <img v-if="card.name === 'rocket'" class="front" src="../../assets/rocket.png" />
-      <img v-if="card.name === 'skinny-unicorn'" class="front" src="../../assets/skinny-unicorn.png" />
-      <img v-if="card.name === 'that-guy'" class="front" src="../../assets/that-guy.png" />
-      <img v-if="card.name === 'zeppelin'" class="front" src="../../assets/zeppelin.png" />
+      <img v-if="card.name === 'brami'" class="front" src="../../assets/brami.jpg" />
+      <img v-if="card.name === 'winnerkid'" class="front" src="../../assets/winnerkid.jpg" />
+      <img v-if="card.name === 'tuxedopooh'" class="front" src="../../assets/tuxedopooh.jpg" />
+      <img v-if="card.name === 'gigachad'" class="front" src="../../assets/gigachad.jpg" />
+      <img v-if="card.name === 'madara'" class="front" src="../../assets/madara.jpg" />
+      <img v-if="card.name === 'eren'" class="front" src="../../assets/eren.jpg" />
+      <img v-if="card.name === 'goku'" class="front" src="../../assets/goku.jpg" />
+      <img v-if="card.name === 'vegeta'" class="front" src="../../assets/vegeta.jpg" />
 
-      <img class="back" src="../../assets/back.png" />
+      <img class="back" src="../../assets/bluecard.jpg" />
     </div>
   </div>
 </template>
@@ -62,6 +62,7 @@ export default defineComponent({
   cursor: pointer;
   position: relative;
   perspective: 800px;
+  background-color: blue;
 }
 
 .card {
@@ -69,6 +70,7 @@ export default defineComponent({
   height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
+  background-color: blue;
 }
 
 .card.flipped {

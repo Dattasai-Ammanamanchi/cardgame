@@ -58,7 +58,7 @@ export default defineComponent({
 .chessboard {
   margin-top: 20px;
   width: 100%;
-  background-color: #fff;
+  background-color: blue;
   height: 530px;
   border-radius: 4px;
   padding: 10px 5px;
@@ -67,6 +67,9 @@ export default defineComponent({
   justify-content: center;
   align-items: center;
   align-content: space-around;
+  font-family: 'Syne Tactile', cursive;
+
+  @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 }
 
 .container:nth-child(4n) {

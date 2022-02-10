@@ -33,6 +33,9 @@ export default defineComponent({
   justify-content: space-between;
   align-items: center;
   color: #eae0d1;
+  font-family: 'Syne Tactile', cursive;
+
+  @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 }
 
 span {

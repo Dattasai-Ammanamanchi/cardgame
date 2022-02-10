@@ -36,6 +36,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-best-prototyping-tools.jpg');
 }
 
 body {
@@ -55,6 +56,7 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  background-color: blue;
 }
 
 @media screen and (max-width: 450px) {

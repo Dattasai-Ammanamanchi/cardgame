@@ -5,14 +5,14 @@ export enum IStatus {
 }
 
 export const ALL_CARD_NAMES = [
-  '8-ball',
-  'kronos',
-  'baked-potato',
-  'dinosaur',
-  'rocket',
-  'skinny-unicorn',
-  'that-guy',
-  'zeppelin'
+  'brami',
+  'gigachad',
+  'winnerkid',
+  'tuxedopooh',
+  'madara',
+  'eren',
+  'goku',
+  'vegeta'
 ] as const
 
 export type ICardName = typeof ALL_CARD_NAMES[number]

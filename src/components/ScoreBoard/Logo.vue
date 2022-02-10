@@ -1,6 +1,6 @@
 <template>
   <h1 class="logo">
-    <a href="https://github.com/leftstick/vue-memory-game" target="_blank">Memory</a>
+    <a href="#" target="_blank">REFRESH</a>
   </h1>
 </template>
 
@@ -21,6 +21,9 @@ export default defineComponent({
   background-color: #5979ac;
   color: #fff;
   text-align: center;
+  font-family: 'Syne Tactile', cursive;
+
+  @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 }
 a {
   text-decoration: none;
